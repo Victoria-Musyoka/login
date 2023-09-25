@@ -1,0 +1,122 @@
+*{
+    padding:0;
+    margin:0;
+    outline: none;
+    border:none;
+}
+
+body{
+    font-family: arial;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(120deg, blue,pink,blue) ;
+}
+form{
+   
+    width: 450px;
+    padding: 3rem;
+    background: #fff;
+    margin: 30px auto;
+    border-radius: 2rem;
+    color: rgba(0, 0, 0, 0.85);
+}
+form h1{
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+}
+form .inp-box{
+    padding: 20px 0px;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+form .inp-box .mini-box{
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+}
+form .inp-box label{
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 600;
+}
+form .inp-box .mini-box input{
+    padding: 20px;
+    padding-left: 30px;
+    margin-left: -20px;
+    background: transparent;
+    width: 100%;
+    font-size: 18px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+form .inp-box .mini-box span{
+    font-size: 25px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+form .inp-box .reset{
+    width: 100;
+    text-align: right;
+    margin: 10px auto;
+    margin-top: 0;
+}
+form .inp-box .reset a{
+    text-decoration: none;
+    color:black;
+    transition: all 300ms ease;
+    padding-right: 20px;
+
+}
+form .inp-box .reset a:hover{
+    color: red;
+}
+
+input[type="submit"]{
+    background: linear-gradient(120deg, blue,pink,blue) ;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px;
+    color: white;
+    border-radius: 2rem;
+    width: 100%;
+    height: 50%;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 300ms ease;
+
+}
+input[type="submit"]:hover{
+    background: linear-gradient(120deg, green,yellow,blue) ;
+}
+
+.footer{
+    margin-top: 5px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.footer h3{
+    text-align: center;
+}
+.footer .socials{
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    
+}
+.footer .socials i{
+    cursor: pointer;
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.85);
+    color:#fff;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 50%;
+    transition: all 300ms ease;
+
+    
+
+}
